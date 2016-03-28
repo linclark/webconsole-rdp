@@ -1,0 +1,13 @@
+{
+  "name": "webconsole-rdp",
+  "version": "1.0.0",
+  "description": "RDP requests and responses (for reference)",
+  "license": "MIT",
+  "devDependencies": {
+    "findit": "^2.0.0",
+    "jsonfile": "^2.2.3"
+  },
+  "scripts": {
+    "prettify": "node prettify.js"
+  }
+}
