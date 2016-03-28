@@ -5,7 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "findit": "^2.0.0",
-    "jsonfile": "^2.2.3"
+    "jsonfile": "^2.2.3",
+    "pretty": "^1.0.0"
   },
   "scripts": {
     "prettify": "node prettify.js"
