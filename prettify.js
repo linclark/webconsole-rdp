@@ -14,9 +14,9 @@ finder.on('file', function (file, stat) {
       }
     })
   }
-  else {
-    const string = fs.readFileSync(file, "utf8")
-    fs.writeFileSync(file, pretty(string));
-  }
+  // else {
+  //   const string = fs.readFileSync(file, "utf8")
+  //   fs.writeFileSync(file, pretty(string));
+  // }
 
 });
