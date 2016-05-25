@@ -4,15 +4,15 @@
     {
       "type": "send",
       "packet": {
-        "to": "server1.conn2.consoleActor2",
+        "to": "server1.conn5.consoleActor2",
         "type": "evaluateJSAsync",
         "text": "window.location",
         "frameActor": null,
-        "selectedNodeActor": null
+        "selectedNodeActor": "server1.conn5.domnode1344"
       },
-      "rawPacket": "{\"to\":\"server1.conn2.consoleActor2\",\"type\":\"evaluateJSAsync\",\"text\":\"window.location\",\"frameActor\":null,\"selectedNodeActor\":null}",
-      "size": 129,
-      "time": "2016-05-03T16:37:09.263Z",
+      "rawPacket": "{\"to\":\"server1.conn5.consoleActor2\",\"type\":\"evaluateJSAsync\",\"text\":\"window.location\",\"frameActor\":null,\"selectedNodeActor\":\"server1.conn5.domnode1344\"}",
+      "size": 152,
+      "time": "2016-05-03T17:27:13.205Z",
       "stack": {
         "frames": [
           {
@@ -179,17 +179,17 @@
           }
         ]
       },
-      "id": 44
+      "id": 83
     },
     {
       "type": "receive",
       "packet": {
-        "from": "server1.conn2.consoleActor2",
-        "resultID": 1462293429455
+        "from": "server1.conn5.consoleActor2",
+        "resultID": 1462296433427
       },
-      "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"resultID\":1462293429455}",
+      "rawPacket": "{\"from\":\"server1.conn5.consoleActor2\",\"resultID\":1462296433427}",
       "size": 63,
-      "time": "2016-05-03T16:37:09.873Z",
+      "time": "2016-05-03T17:27:13.749Z",
       "stack": {
         "frames": [
           {
@@ -242,35 +242,35 @@
           }
         ]
       },
-      "id": 45
+      "id": 84
     },
     {
       "type": "receive",
       "packet": {
-        "from": "server1.conn2.consoleActor2",
+        "from": "server1.conn5.consoleActor2",
         "input": "window.location",
         "result": {
           "type": "object",
           "class": "Location",
-          "actor": "server1.conn2.obj272",
+          "actor": "server1.conn5.obj1358",
           "extensible": true,
           "frozen": false,
           "sealed": false,
           "ownPropertyLength": 15,
           "preview": {
             "kind": "ObjectWithURL",
-            "url": "about:privatebrowsing"
+            "url": "https://www.mozilla.org/en-US/"
           }
         },
-        "timestamp": 1462293429455,
+        "timestamp": 1462296433427,
         "exception": null,
         "helperResult": null,
-        "resultID": 1462293429455,
+        "resultID": 1462296433427,
         "type": "evaluationResult"
       },
-      "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"input\":\"window.location\",\"result\":{\"type\":\"object\",\"class\":\"Location\",\"actor\":\"server1.conn2.obj272\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":15,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"about:privatebrowsing\"}},\"timestamp\":1462293429455,\"exception\":null,\"helperResult\":null,\"resultID\":1462293429455,\"type\":\"evaluationResult\"}",
-      "size": 391,
-      "time": "2016-05-03T16:37:10.021Z",
+      "rawPacket": "{\"from\":\"server1.conn5.consoleActor2\",\"input\":\"window.location\",\"result\":{\"type\":\"object\",\"class\":\"Location\",\"actor\":\"server1.conn5.obj1358\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":15,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"https://www.mozilla.org/en-US/\"}},\"timestamp\":1462296433427,\"exception\":null,\"helperResult\":null,\"resultID\":1462296433427,\"type\":\"evaluationResult\"}",
+      "size": 401,
+      "time": "2016-05-03T17:27:13.941Z",
       "stack": {
         "frames": [
           {
@@ -323,15 +323,15 @@
           }
         ]
       },
-      "id": 46
+      "id": 85
     },
     {
       "type": "receive",
       "packet": {
-        "from": "server1.conn2.tab1",
+        "from": "server1.conn5.tab1",
         "type": "newSource",
         "source": {
-          "actor": "server1.conn2.271",
+          "actor": "server1.conn5.1357",
           "generatedUrl": null,
           "url": null,
           "isBlackBoxed": false,
@@ -341,9 +341,9 @@
           "introductionType": "debugger eval"
         }
       },
-      "rawPacket": "{\"from\":\"server1.conn2.tab1\",\"type\":\"newSource\",\"source\":{\"actor\":\"server1.conn2.271\",\"generatedUrl\":null,\"url\":null,\"isBlackBoxed\":false,\"isPrettyPrinted\":false,\"isSourceMapped\":false,\"introductionUrl\":null,\"introductionType\":\"debugger eval\"}}",
-      "size": 244,
-      "time": "2016-05-03T16:37:10.112Z",
+      "rawPacket": "{\"from\":\"server1.conn5.tab1\",\"type\":\"newSource\",\"source\":{\"actor\":\"server1.conn5.1357\",\"generatedUrl\":null,\"url\":null,\"isBlackBoxed\":false,\"isPrettyPrinted\":false,\"isSourceMapped\":false,\"introductionUrl\":null,\"introductionType\":\"debugger eval\"}}",
+      "size": 245,
+      "time": "2016-05-03T17:27:14.091Z",
       "stack": {
         "frames": [
           {
@@ -396,15 +396,15 @@
           }
         ]
       },
-      "id": 47
+      "id": 86
     },
     {
       "type": "receive",
       "packet": {
-        "from": "server1.conn2.27",
+        "from": "server1.conn5.27",
         "type": "newSource",
         "source": {
-          "actor": "server1.conn2.271",
+          "actor": "server1.conn5.1357",
           "generatedUrl": null,
           "url": null,
           "isBlackBoxed": false,
@@ -414,9 +414,9 @@
           "introductionType": "debugger eval"
         }
       },
-      "rawPacket": "{\"from\":\"server1.conn2.27\",\"type\":\"newSource\",\"source\":{\"actor\":\"server1.conn2.271\",\"generatedUrl\":null,\"url\":null,\"isBlackBoxed\":false,\"isPrettyPrinted\":false,\"isSourceMapped\":false,\"introductionUrl\":null,\"introductionType\":\"debugger eval\"}}",
-      "size": 242,
-      "time": "2016-05-03T16:37:10.198Z",
+      "rawPacket": "{\"from\":\"server1.conn5.27\",\"type\":\"newSource\",\"source\":{\"actor\":\"server1.conn5.1357\",\"generatedUrl\":null,\"url\":null,\"isBlackBoxed\":false,\"isPrettyPrinted\":false,\"isSourceMapped\":false,\"introductionUrl\":null,\"introductionType\":\"debugger eval\"}}",
+      "size": 243,
+      "time": "2016-05-03T17:27:14.226Z",
       "stack": {
         "frames": [
           {
@@ -469,19 +469,19 @@
           }
         ]
       },
-      "id": 48
+      "id": 87
     }
   ],
   "summary": {
     "data": {
-      "sent": 129,
-      "received": 940
+      "sent": 152,
+      "received": 952
     },
     "packets": {
       "sent": 1,
       "received": 4
     }
   },
-  "uniqueId": 48,
+  "uniqueId": 87,
   "removedPackets": 0
 }
