@@ -1,0 +1,487 @@
+{
+  "!format!": "rdp-inspector/packets-store/v1",
+  "packets": [
+    {
+      "type": "send",
+      "packet": {
+        "to": "server1.conn7.consoleActor2",
+        "type": "evaluateJSAsync",
+        "text": "testVarName",
+        "frameActor": null,
+        "selectedNodeActor": null
+      },
+      "rawPacket": "{\"to\":\"server1.conn7.consoleActor2\",\"type\":\"evaluateJSAsync\",\"text\":\"testVarName\",\"frameActor\":null,\"selectedNodeActor\":null}",
+      "size": 125,
+      "time": "2016-06-23T12:19:17.988Z",
+      "stack": {
+        "frames": [
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 176,
+            "columnNumber": 9,
+            "name": "ToolboxOverlay<.getStack"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 126,
+            "columnNumber": 14,
+            "name": "ToolboxOverlay<.onSendPacket"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 72,
+            "columnNumber": 7,
+            "name": "TransportObserver<.send/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 71,
+            "columnNumber": 5,
+            "name": "TransportObserver<.send"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/event-emitter.js",
+            "lineNumber": 163,
+            "columnNumber": 13,
+            "name": "EventEmitter_emit"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js",
+            "lineNumber": 548,
+            "columnNumber": 7,
+            "name": "LocalDebuggerTransport.prototype.send"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js",
+            "lineNumber": 875,
+            "columnNumber": 7,
+            "name": "_sendRequest"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js",
+            "lineNumber": 859,
+            "columnNumber": 7,
+            "name": "_sendOrQueueRequest"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js",
+            "lineNumber": 729,
+            "columnNumber": 5,
+            "name": "DebuggerClient.prototype.request"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/client.js",
+            "lineNumber": 283,
+            "columnNumber": 5,
+            "name": "WebConsoleClient.prototype.evaluateJSAsync"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webconsole/jsterm.js",
+            "lineNumber": 520,
+            "columnNumber": 5,
+            "name": "JSTerm.prototype.requestEvaluation"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webconsole/jsterm.js",
+            "lineNumber": 454,
+            "columnNumber": 5,
+            "name": "JSTerm.prototype.execute"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webconsole/jsterm.js",
+            "lineNumber": 1133,
+            "columnNumber": 11,
+            "name": "JSTerm.prototype._keyPress"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webconsole/jsterm.js",
+            "lineNumber": 273,
+            "columnNumber": 7,
+            "name": "JSTerm.prototype.init"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webconsole/webconsole.js",
+            "lineNumber": 548,
+            "columnNumber": 5,
+            "name": "WebConsoleFrame.prototype._initUI"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webconsole/webconsole.js",
+            "lineNumber": 455,
+            "columnNumber": 5,
+            "name": "WebConsoleFrame.prototype.init"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webconsole/hudservice.js",
+            "lineNumber": 374,
+            "columnNumber": 12,
+            "name": "WC_init"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webconsole/hudservice.js",
+            "lineNumber": 95,
+            "columnNumber": 12,
+            "name": "HS_openWebConsole"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webconsole/panel.js",
+            "lineNumber": 79,
+            "columnNumber": 16,
+            "name": "WebConsolePanel.prototype.open/<"
+          },
+          {
+            "url": "resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js",
+            "lineNumber": 937,
+            "columnNumber": 23,
+            "name": "Handler.prototype.process"
+          },
+          {
+            "url": "resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js",
+            "lineNumber": 816,
+            "columnNumber": 7,
+            "name": "this.PromiseWalker.walkerLoop"
+          },
+          {
+            "url": "resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js",
+            "lineNumber": 747,
+            "columnNumber": 11,
+            "name": "this.PromiseWalker.scheduleWalkerLoop"
+          },
+          {
+            "url": "resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js",
+            "lineNumber": 779,
+            "columnNumber": 7,
+            "name": "this.PromiseWalker.schedulePromise"
+          },
+          {
+            "url": "resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js",
+            "lineNumber": 714,
+            "columnNumber": 7,
+            "name": "this.PromiseWalker.completePromise"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webconsole/panel.js",
+            "lineNumber": 57,
+            "columnNumber": 9,
+            "name": "onIframeLoad"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webconsole/panel.js",
+            "lineNumber": 55,
+            "columnNumber": 7,
+            "name": "WebConsolePanel.prototype.open"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/toolbox.js",
+            "lineNumber": 1262,
+            "columnNumber": 19,
+            "name": "Toolbox.prototype.loadTool/onLoad"
+          }
+        ]
+      },
+      "id": 68
+    },
+    {
+      "type": "receive",
+      "packet": {
+        "from": "server1.conn7.consoleActor2",
+        "resultID": 1466684358020
+      },
+      "rawPacket": "{\"from\":\"server1.conn7.consoleActor2\",\"resultID\":1466684358020}",
+      "size": 63,
+      "time": "2016-06-23T12:19:18.049Z",
+      "stack": {
+        "frames": [
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 176,
+            "columnNumber": 9,
+            "name": "ToolboxOverlay<.getStack"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 141,
+            "columnNumber": 14,
+            "name": "ToolboxOverlay<.onReceivePacket"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 82,
+            "columnNumber": 7,
+            "name": "TransportObserver<.onPacket/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 81,
+            "columnNumber": 5,
+            "name": "TransportObserver<.onPacket"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/event-emitter.js",
+            "lineNumber": 163,
+            "columnNumber": 13,
+            "name": "EventEmitter_emit"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js",
+            "lineNumber": 568,
+            "columnNumber": 13,
+            "name": "LocalDebuggerTransport.prototype.send/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js",
+            "lineNumber": 101,
+            "columnNumber": 14,
+            "name": "exports.makeInfallible/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js",
+            "lineNumber": 101,
+            "columnNumber": 14,
+            "name": "exports.makeInfallible/<"
+          }
+        ]
+      },
+      "id": 69
+    },
+    {
+      "type": "receive",
+      "packet": {
+        "from": "server1.conn7.consoleActor2",
+        "input": "testVarName",
+        "result": {
+          "type": "object",
+          "class": "Function",
+          "actor": "server1.conn7.obj41",
+          "extensible": true,
+          "frozen": false,
+          "sealed": false,
+          "displayName": "testVarName",
+          "location": {
+            "url": "debugger eval code",
+            "line": 1
+          }
+        },
+        "timestamp": 1466684358020,
+        "exception": null,
+        "helperResult": null,
+        "resultID": 1466684358020,
+        "type": "evaluationResult"
+      },
+      "rawPacket": "{\"from\":\"server1.conn7.consoleActor2\",\"input\":\"testVarName\",\"result\":{\"type\":\"object\",\"class\":\"Function\",\"actor\":\"server1.conn7.obj41\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"displayName\":\"testVarName\",\"location\":{\"url\":\"debugger eval code\",\"line\":1}},\"timestamp\":1466684358020,\"exception\":null,\"helperResult\":null,\"resultID\":1466684358020,\"type\":\"evaluationResult\"}",
+      "size": 375,
+      "time": "2016-06-23T12:19:18.086Z",
+      "stack": {
+        "frames": [
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 176,
+            "columnNumber": 9,
+            "name": "ToolboxOverlay<.getStack"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 141,
+            "columnNumber": 14,
+            "name": "ToolboxOverlay<.onReceivePacket"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 82,
+            "columnNumber": 7,
+            "name": "TransportObserver<.onPacket/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 81,
+            "columnNumber": 5,
+            "name": "TransportObserver<.onPacket"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/event-emitter.js",
+            "lineNumber": 163,
+            "columnNumber": 13,
+            "name": "EventEmitter_emit"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js",
+            "lineNumber": 568,
+            "columnNumber": 13,
+            "name": "LocalDebuggerTransport.prototype.send/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js",
+            "lineNumber": 101,
+            "columnNumber": 14,
+            "name": "exports.makeInfallible/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js",
+            "lineNumber": 101,
+            "columnNumber": 14,
+            "name": "exports.makeInfallible/<"
+          }
+        ]
+      },
+      "id": 70
+    },
+    {
+      "type": "receive",
+      "packet": {
+        "from": "server1.conn7.tab1",
+        "type": "newSource",
+        "source": {
+          "actor": "server1.conn7.40",
+          "generatedUrl": null,
+          "url": null,
+          "isBlackBoxed": false,
+          "isPrettyPrinted": false,
+          "isSourceMapped": false,
+          "introductionUrl": null,
+          "introductionType": "debugger eval"
+        }
+      },
+      "rawPacket": "{\"from\":\"server1.conn7.tab1\",\"type\":\"newSource\",\"source\":{\"actor\":\"server1.conn7.40\",\"generatedUrl\":null,\"url\":null,\"isBlackBoxed\":false,\"isPrettyPrinted\":false,\"isSourceMapped\":false,\"introductionUrl\":null,\"introductionType\":\"debugger eval\"}}",
+      "size": 243,
+      "time": "2016-06-23T12:19:18.126Z",
+      "stack": {
+        "frames": [
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 176,
+            "columnNumber": 9,
+            "name": "ToolboxOverlay<.getStack"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 141,
+            "columnNumber": 14,
+            "name": "ToolboxOverlay<.onReceivePacket"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 82,
+            "columnNumber": 7,
+            "name": "TransportObserver<.onPacket/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 81,
+            "columnNumber": 5,
+            "name": "TransportObserver<.onPacket"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/event-emitter.js",
+            "lineNumber": 163,
+            "columnNumber": 13,
+            "name": "EventEmitter_emit"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js",
+            "lineNumber": 568,
+            "columnNumber": 13,
+            "name": "LocalDebuggerTransport.prototype.send/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js",
+            "lineNumber": 101,
+            "columnNumber": 14,
+            "name": "exports.makeInfallible/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js",
+            "lineNumber": 101,
+            "columnNumber": 14,
+            "name": "exports.makeInfallible/<"
+          }
+        ]
+      },
+      "id": 71
+    },
+    {
+      "type": "receive",
+      "packet": {
+        "from": "server1.conn7.26",
+        "type": "newSource",
+        "source": {
+          "actor": "server1.conn7.40",
+          "generatedUrl": null,
+          "url": null,
+          "isBlackBoxed": false,
+          "isPrettyPrinted": false,
+          "isSourceMapped": false,
+          "introductionUrl": null,
+          "introductionType": "debugger eval"
+        }
+      },
+      "rawPacket": "{\"from\":\"server1.conn7.26\",\"type\":\"newSource\",\"source\":{\"actor\":\"server1.conn7.40\",\"generatedUrl\":null,\"url\":null,\"isBlackBoxed\":false,\"isPrettyPrinted\":false,\"isSourceMapped\":false,\"introductionUrl\":null,\"introductionType\":\"debugger eval\"}}",
+      "size": 241,
+      "time": "2016-06-23T12:19:18.151Z",
+      "stack": {
+        "frames": [
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 176,
+            "columnNumber": 9,
+            "name": "ToolboxOverlay<.getStack"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 141,
+            "columnNumber": 14,
+            "name": "ToolboxOverlay<.onReceivePacket"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 82,
+            "columnNumber": 7,
+            "name": "TransportObserver<.onPacket/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 81,
+            "columnNumber": 5,
+            "name": "TransportObserver<.onPacket"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/event-emitter.js",
+            "lineNumber": 163,
+            "columnNumber": 13,
+            "name": "EventEmitter_emit"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js",
+            "lineNumber": 568,
+            "columnNumber": 13,
+            "name": "LocalDebuggerTransport.prototype.send/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js",
+            "lineNumber": 101,
+            "columnNumber": 14,
+            "name": "exports.makeInfallible/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js",
+            "lineNumber": 101,
+            "columnNumber": 14,
+            "name": "exports.makeInfallible/<"
+          }
+        ]
+      },
+      "id": 72
+    }
+  ],
+  "summary": {
+    "data": {
+      "sent": 125,
+      "received": 922
+    },
+    "packets": {
+      "sent": 1,
+      "received": 4
+    }
+  },
+  "uniqueId": 72,
+  "removedPackets": 0
+}
