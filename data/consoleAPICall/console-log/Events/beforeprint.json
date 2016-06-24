@@ -1,0 +1,273 @@
+{
+  "!format!": "rdp-inspector/packets-store/v1",
+  "packets": [
+    {
+      "type": "summary",
+      "time": "2016-06-24T14:53:25.632Z",
+      "data": {
+        "sent": 0,
+        "received": 0
+      },
+      "packets": {
+        "sent": 0,
+        "received": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "receive",
+      "packet": {
+        "from": "server1.conn23.consoleActor2",
+        "type": "consoleAPICall",
+        "message": {
+          "arguments": [
+            {
+              "type": "object",
+              "class": "Event",
+              "actor": "server1.conn23.obj35",
+              "extensible": true,
+              "frozen": false,
+              "sealed": false,
+              "ownPropertyLength": 1,
+              "preview": {
+                "kind": "DOMEvent",
+                "type": "beforeprint",
+                "properties": {
+                  "isTrusted": true,
+                  "currentTarget": {
+                    "type": "object",
+                    "class": "Window",
+                    "actor": "server1.conn23.obj37",
+                    "extensible": true,
+                    "frozen": false,
+                    "sealed": false,
+                    "ownPropertyLength": 760,
+                    "preview": {
+                      "kind": "ObjectWithURL",
+                      "url": "data:text/html;charset=utf-8,<div%20id=\"test\">test</div><script>window.addEventListener(\"beforeprint\",%20function(%20event%20)%20{console.log(event)},%20false);</script>"
+                    }
+                  },
+                  "eventPhase": 2,
+                  "bubbles": false,
+                  "cancelable": false,
+                  "defaultPrevented": false,
+                  "timeStamp": 1466780008434005,
+                  "originalTarget": {
+                    "type": "object",
+                    "class": "Window",
+                    "actor": "server1.conn23.obj38",
+                    "extensible": true,
+                    "frozen": false,
+                    "sealed": false,
+                    "ownPropertyLength": 760,
+                    "preview": {
+                      "kind": "ObjectWithURL",
+                      "url": "data:text/html;charset=utf-8,<div%20id=\"test\">test</div><script>window.addEventListener(\"beforeprint\",%20function(%20event%20)%20{console.log(event)},%20false);</script>"
+                    }
+                  },
+                  "explicitOriginalTarget": {
+                    "type": "object",
+                    "class": "Window",
+                    "actor": "server1.conn23.obj39",
+                    "extensible": true,
+                    "frozen": false,
+                    "sealed": false,
+                    "ownPropertyLength": 760,
+                    "preview": {
+                      "kind": "ObjectWithURL",
+                      "url": "data:text/html;charset=utf-8,<div%20id=\"test\">test</div><script>window.addEventListener(\"beforeprint\",%20function(%20event%20)%20{console.log(event)},%20false);</script>"
+                    }
+                  },
+                  "NONE": 0
+                },
+                "target": {
+                  "type": "object",
+                  "class": "Window",
+                  "actor": "server1.conn23.obj36",
+                  "extensible": true,
+                  "frozen": false,
+                  "sealed": false,
+                  "ownPropertyLength": 760,
+                  "preview": {
+                    "kind": "ObjectWithURL",
+                    "url": "data:text/html;charset=utf-8,<div%20id=\"test\">test</div><script>window.addEventListener(\"beforeprint\",%20function(%20event%20)%20{console.log(event)},%20false);</script>"
+                  }
+                }
+              }
+            }
+          ],
+          "columnNumber": 59,
+          "counter": null,
+          "filename": "data:text/html;charset=utf-8,<div%20id=\"test\">test</div><script>window.addEventListener(\"beforeprint\",%20function(%20event%20)%20{console.log(event)},%20false);</script>",
+          "functionName": "",
+          "groupName": "",
+          "level": "log",
+          "lineNumber": 1,
+          "originAttributes": {
+            "addonId": "",
+            "appId": 0,
+            "inIsolatedMozBrowser": false,
+            "privateBrowsingId": 0,
+            "signedPkg": "",
+            "userContextId": 0
+          },
+          "private": false,
+          "styles": [],
+          "timeStamp": 1466780008434,
+          "timer": null,
+          "workerType": "none",
+          "category": "webdev"
+        }
+      },
+      "rawPacket": "{\"from\":\"server1.conn23.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[{\"type\":\"object\",\"class\":\"Event\",\"actor\":\"server1.conn23.obj35\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":1,\"preview\":{\"kind\":\"DOMEvent\",\"type\":\"beforeprint\",\"properties\":{\"isTrusted\":true,\"currentTarget\":{\"type\":\"object\",\"class\":\"Window\",\"actor\":\"server1.conn23.obj37\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":760,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"data:text/html;charset=utf-8,<div%20id=\\\"test\\\">test</div><script>window.addEventListener(\\\"beforeprint\\\",%20function(%20event%20)%20{console.log(event)},%20false);</script>\"}},\"eventPhase\":2,\"bubbles\":false,\"cancelable\":false,\"defaultPrevented\":false,\"timeStamp\":1466780008434005,\"originalTarget\":{\"type\":\"object\",\"class\":\"Window\",\"actor\":\"server1.conn23.obj38\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":760,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"data:text/html;charset=utf-8,<div%20id=\\\"test\\\">test</div><script>window.addEventListener(\\\"beforeprint\\\",%20function(%20event%20)%20{console.log(event)},%20false);</script>\"}},\"explicitOriginalTarget\":{\"type\":\"object\",\"class\":\"Window\",\"actor\":\"server1.conn23.obj39\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":760,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"data:text/html;charset=utf-8,<div%20id=\\\"test\\\">test</div><script>window.addEventListener(\\\"beforeprint\\\",%20function(%20event%20)%20{console.log(event)},%20false);</script>\"}},\"NONE\":0},\"target\":{\"type\":\"object\",\"class\":\"Window\",\"actor\":\"server1.conn23.obj36\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":760,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"data:text/html;charset=utf-8,<div%20id=\\\"test\\\">test</div><script>window.addEventListener(\\\"beforeprint\\\",%20function(%20event%20)%20{console.log(event)},%20false);</script>\"}}}}],\"columnNumber\":59,\"counter\":null,\"filename\":\"data:text/html;charset=utf-8,<div%20id=\\\"test\\\">test</div><script>window.addEventListener(\\\"beforeprint\\\",%20function(%20event%20)%20{console.log(event)},%20false);</script>\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":1,\"originAttributes\":{\"addonId\":\"\",\"appId\":0,\"inIsolatedMozBrowser\":false,\"privateBrowsingId\":0,\"signedPkg\":\"\",\"userContextId\":0},\"private\":false,\"styles\":[],\"timeStamp\":1466780008434,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+      "size": 2424,
+      "time": "2016-06-24T14:53:28.605Z",
+      "stack": {
+        "frames": [
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 176,
+            "columnNumber": 9,
+            "name": "ToolboxOverlay<.getStack"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 141,
+            "columnNumber": 14,
+            "name": "ToolboxOverlay<.onReceivePacket"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 82,
+            "columnNumber": 7,
+            "name": "TransportObserver<.onPacket/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 81,
+            "columnNumber": 5,
+            "name": "TransportObserver<.onPacket"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/event-emitter.js",
+            "lineNumber": 163,
+            "columnNumber": 13,
+            "name": "EventEmitter_emit"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js",
+            "lineNumber": 568,
+            "columnNumber": 13,
+            "name": "LocalDebuggerTransport.prototype.send/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js",
+            "lineNumber": 101,
+            "columnNumber": 14,
+            "name": "exports.makeInfallible/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js",
+            "lineNumber": 101,
+            "columnNumber": 14,
+            "name": "exports.makeInfallible/<"
+          },
+          {
+            "url": "chrome://global/content/browser-content.js",
+            "lineNumber": 640,
+            "columnNumber": 7,
+            "name": "print"
+          },
+          {
+            "url": "chrome://global/content/browser-content.js",
+            "lineNumber": 469,
+            "columnNumber": 9,
+            "name": "receiveMessage"
+          }
+        ]
+      },
+      "id": 2
+    },
+    {
+      "type": "receive",
+      "packet": {
+        "from": "server1.conn23.tab1",
+        "type": "frameUpdate",
+        "frames": [
+          {
+            "id": 8113,
+            "destroy": true
+          }
+        ]
+      },
+      "rawPacket": "{\"from\":\"server1.conn23.tab1\",\"type\":\"frameUpdate\",\"frames\":[{\"id\":8113,\"destroy\":true}]}",
+      "size": 89,
+      "time": "2016-06-24T14:53:30.602Z",
+      "stack": {
+        "frames": [
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 176,
+            "columnNumber": 9,
+            "name": "ToolboxOverlay<.getStack"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/toolbox-overlay.js",
+            "lineNumber": 141,
+            "columnNumber": 14,
+            "name": "ToolboxOverlay<.onReceivePacket"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 82,
+            "columnNumber": 7,
+            "name": "TransportObserver<.onPacket/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://rdpinspector-at-getfirebug-dot-com/lib/transport-observer.js",
+            "lineNumber": 81,
+            "columnNumber": 5,
+            "name": "TransportObserver<.onPacket"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/event-emitter.js",
+            "lineNumber": 163,
+            "columnNumber": 13,
+            "name": "EventEmitter_emit"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js",
+            "lineNumber": 568,
+            "columnNumber": 13,
+            "name": "LocalDebuggerTransport.prototype.send/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js",
+            "lineNumber": 101,
+            "columnNumber": 14,
+            "name": "exports.makeInfallible/<"
+          },
+          {
+            "url": "resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js",
+            "lineNumber": 101,
+            "columnNumber": 14,
+            "name": "exports.makeInfallible/<"
+          }
+        ]
+      },
+      "id": 3
+    }
+  ],
+  "summary": {
+    "data": {
+      "sent": 0,
+      "received": 2513
+    },
+    "packets": {
+      "sent": 0,
+      "received": 2
+    }
+  },
+  "uniqueId": 3,
+  "removedPackets": 0
+}
